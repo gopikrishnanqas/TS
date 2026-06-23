@@ -1,0 +1,13 @@
+name: Pre-merge job for verification and Validation
+on:
+  push:
+   branches:
+    - master
+    - main
+
+jobs:
+  runners: ubunutu-default
+  steps:
+    -users : actions/checkout@v4
+    
+  
